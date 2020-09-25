@@ -42,15 +42,7 @@ public class TankFrame extends Frame {
     class MyKeyListener extends KeyAdapter {
         @Override
         public void keyPressed(KeyEvent e) {
-            if (e.getKeyChar() == 'w'){
-                y -= 10;
-            }else if (e.getKeyChar() == 's'){
-                y += 10;
-            }else if (e.getKeyChar() == 'a'){
-                x -= 10;
-            }else if (e.getKeyChar() == 'd'){
-                x += 10;
-            }
+
             repaint();
         }
 

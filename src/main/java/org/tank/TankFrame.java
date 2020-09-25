@@ -42,7 +42,7 @@ public class TankFrame extends Frame {
     class MyKeyListener extends KeyAdapter {
         @Override
         public void keyPressed(KeyEvent e) {
-
+            System.out.println("press");
             repaint();
         }
 

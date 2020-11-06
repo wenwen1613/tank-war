@@ -57,6 +57,9 @@ public class TankFrame extends Frame {
                 case 68:
                     // 向右
                     x += 10;
+                    break;
+                default:
+                    break;
             }
             repaint();
         }
